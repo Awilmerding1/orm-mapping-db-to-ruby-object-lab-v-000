@@ -46,6 +46,7 @@ class Student
       WHERE grade < 12
     SQL
     DB[:conn].execute(sql)
+    binding.pry
   end
   
   def save
